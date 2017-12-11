@@ -1,0 +1,22 @@
+Letters from Whitechapel is a cat and mouse style board game in which one player plays Jack the Ripper,
+and his goal is to take five victims before being caught. The other players are police detectives who must
+cooperate to catch Jack the Ripper before the end of the game. The game board represents the Whitechapel 
+area at the time of Jack the Ripper and is marked with 199 numbered circles linked together by dotted lines.
+During play, Jack the Ripper, the Policemen, and the Wretched are moved along the dotted lines that represent 
+Whitechapel's streets. Jack the Ripper moves stealthily between numbered circles, while policemen move on their 
+patrols between crossings, and the Wretched wander alone between the numbered circles.
+
+The goal of this project was to develop a multiplayer web interface for playing this game.  It would have an
+HTML and Javascript front end, powered by a Java servlet back end.  We had a group of 4 to complete the project.
+My personal contribution was with the front end.  I designed the user interface with HTML and equipped it to
+interact with the Java backend via Javascript.
+
+We came together with a very user friendly application.  Due to our inexperience we were testing the front end 
+relentlessly before pushing code.  We also had very effective communication between front-end and back-end.  Having 
+multiple methods of communication, we became quite familiar with the task. This allowed us to connect things well 
+to make a functioning dynamic user specific page for each player in a multiplayer game.
+
+I learned a lot about the importance of application architecture and constant collaboration.  Some of the problems 
+we encountered were due to the fact that we weren’t always coding together.  But whenever we did we worked wonders.  
+Overall, I learned the most about front end development.  I had no experience with web development prior to this project 
+so I took away the most from learning HTML and Javascript from scratch.
