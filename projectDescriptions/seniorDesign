@@ -1,0 +1,16 @@
+Currently, wireless security courses here at Iowa State University utilize wired testing environments which 
+generate “dummy” traffic so that students may observe and interact as if they are on a real network. This method 
+is hard to scale, requires a great deal of equipment, and is also difficult to contain. Therefore, the proposed 
+solution is for the creation of an isolated wireless facility for graduate coursework in wireless security. 
+
+In order to isolate these networks, a Faraday cage must be created which encapsulates the equipment such that only 
+authorized users can connect to it. Additionally, these networks would be secured from the campus network using a 
+proxy server so that undesirable traffic would not escape into the wild, and outside traffic will not be visible in 
+the cage. Another part of the project is to provide curriculum in the form of lab experiments which will be developed
+to highlight the educational value of these isolated networks.
+
+Within the Faraday cage, there is the desire to simulate a working mobile telephone network.  In order to do so
+there would need to be a cell phone tower inside the small confined space of the cage.  This is accomplished by the
+use of a software defined radio (SDR).  My contribution to this project is to equip the SDR with OpenBTS software to
+create a working cell phone tower.  To do so I have done extensive research on both SDR's and the software that is used
+enable them to operate.
