@@ -1,0 +1,16 @@
+For embedded systems class, the final project was to program a roomba robot equipped with sensors and an FPGA to
+be operatable remotely via Bluetooth.  The intended operation was to locate a small space indicated by four thin
+pvc pipes within a larger rectanglular space.  In order to accomplish this, myself and 3 others developed a method in
+which information about the surroundings of the robot were relayed to a command line on a remote computer.
+
+My role in the project was the development of the algorithm we would use to find the finishing spot as well as to
+calibrate and fine tune the sensors we would be using.  The sensors we were using were infrared and sonar.  In order to
+program and calibrate these we needed to test out values returned by the sensor and compare them to the measurements.
+The development of the algorithm involved coming up with a systematic way to scan obstacles regardless of the course and
+find a way to the finish.
+
+I learned a lot from this project.  First and foremost I learned the degree of care that must be placed when calibrating
+sensors.  They were very finnicky and did not always work as intended.  When operating remotely, we were to place full
+trust into our sensors so faulty programming would be detrimental to even the sturdiest of approaches to solving the
+overall navigation problem.  I also learned a lot about effective and efficient groupwork.  Many long hours were spent
+on this and it could have been many more if not for harmonious delegation and enthusiasm about the group.
