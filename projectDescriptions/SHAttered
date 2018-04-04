@@ -1,1 +1,14 @@
+This research project involved detailing and demonstrating a collision attack on the SHA-1 cryptographic hash algorithm.
+Proper hashing is essential to modern day cybersecurity, as it is used to verify the integrity of stored and shared. In 
+order for a hash algorithm to be considered safe to use for verification, it must not compute duplicating hashes for any
+two documents given to it, unless they are copies of the same document. This means that there should not be two files that
+are distinctly different that compute to the same hash using a hashing algorithm.  In February 2017, Google and CWI performed
+the first ever practical collision attack on SHA-1.
 
+My role in this project was to research the method in which the attack was performed.  This required to first understand
+how SHA-1 works when used appropriately.  It is a hash algorithm which has 80 steps and uses a 160 bit key.  This translates
+to the smallest of changes propogating massive alterations to the final computed hash.  This makes creating a collision very
+intricate.  In order to manipulate this the attack targeted the format of a PDF with a JPEG image embedded inside.  This is
+due to the very different visual presentation to very small encoding differences.  In the end the files ares are nearly identical
+except for approximately 6 lines of hexdump values referred to as the collision blocks.  These create disturbance vectors within
+the computation which take different paths to reach the same end result.
